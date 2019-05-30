@@ -1,21 +1,19 @@
 # vehicle-tracking-with-tensorflow
 
-Bu Jupyter Notebook projesinde küçük çaplı bir araç izleme uygulaması oluşturulmuştur. Bu uygulama için çeşitli görüntü 
-işleme araçlarından yardım alınmıştır. Temel olarak Tensorflow kütüphanesine ait hazırlanmış modellerden biri seçilmiş ve 
-seçilen bu model kullanılarak çeşitli videolar içindeki araçların izlenmesi gerçekleştirilmiş ve izlenen araçların 
-tipleri de tespit edilmiştir. Bu projede kullanılan hazır modele ve farklı olarak kullanılabilecek çeşitli modellere ve 
-bu modeller ile ilgili  bilgilere [buradan](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/detection_model_zoo.md) 
-ulaşabilirsiniz.
+A small vehicle tracking application has been created in this Jupyter Notebook project. For this application, various 
+image processing tools have been helped. Basically one of the prepared models belonging to the Tensorflow library was 
+selected and selected using this model to monitor vehicles in various videos and types of vehicles watched has also been 
+identified. To the ready-made model used in this project and various models that can be used differently, as well as 
+information about these models [here](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/detection_model_zoo.md). 
 
-Projenin akışı ise şu şekildedir:
+The flow of the project is as follows:
 
 
 ![alt_text](tensorflow-flow.png)
 
-Proje içerisindeki `input` klasöründen araç izleme de kullanılan videolara ulaşabilirsiniz. Aynı şekilde `output` klasörünün
-altındada input olarak işlenen videoların çıktılarını görebilirsiniz.
+You can access videos that are used in vehicle tracking from the `input` folder in the project. Similarly, under the 
+`output` folder you can see the output of videos processed as input. 
 
-Projeyi kullanabilmek için `Tensorflow Object Detection API`'yi yerel makineniz üzerine kurmanız gerekmektedir. Bunun için
-[burada](https://tensorflow-object-detection-api-tutorial.readthedocs.io/en/latest/install.html) verilmiş olan adımları 
-takip ederek kurulumunuzu gerçekleştirebilirsiniz.
+In order to use the project, you need to install `Tensorflow Object Detection API` on your local machine. You can 
+perform your installation by following the steps given [here](https://tensorflow-object-detection-api-tutorial.readthedocs.io/en/latest/install.html).
 
